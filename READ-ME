@@ -1,0 +1,22 @@
+## Employee Attrition Prediction using Machine Learning
+
+A complete end-to-end data science project predicting whether an employee is likely 
+to leave a company, built on the IBM HR Analytics dataset (1,470 records).
+
+### What's covered
+- Exploratory Data Analysis (EDA) — attrition by department, role, income, tenure, and work-life balance
+- Data preprocessing — one-hot encoding, feature scaling, class imbalance handling
+- Model training & comparison — Logistic Regression, Random Forest, Gradient Boosting
+- Evaluation — Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
+- Feature importance — top 10 drivers of employee exit
+- HR recommendations — written for a non-technical business audience
+
+### Key finding
+Overtime is the single strongest predictor of attrition — stronger than salary alone.
+Sales Representatives show a ~40% exit rate, nearly 2.5x the company average.
+
+### Tech stack
+Python · Pandas · Scikit-learn · Matplotlib · Seaborn · Jupyter Notebook
+
+### Dataset
+IBM HR Analytics Employee Attrition — via Kaggle
